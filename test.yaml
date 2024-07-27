@@ -1,0 +1,63 @@
+# USAGE:
+# $ docker compose up (or, docker-compose up)
+#
+# Open in browser: http://localhost:3000
+
+# To run on a custom port (e.g., 80):
+# $ PORT=80 docker compose up (or, PORT=80 docker-compose up)
+#
+# Open in browser: http://localhost
+
+services:
+  # Blockchain with deployed PoE smart contract
+  blockchain:
+    image: hybuild/ganache:poe9
+    container_name: blockchain
+    hostname: ganache
+    restart: on-failure    # for Docker Compose
+  # deploy:                # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: on-failure
+  # expose:
+  #   - 7545               # ganache:7545    
+    ports:
+      - 7545:7545          # localhost:7545
+    volumes:
+      - ganache-db:/db
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:7545', { method:'POST', headers:{ 'content-type':'application/json' }, body:JSON.stringify({ id:1, jsonrpc:'2.0', method:'eth_blockNumber' }) }).then(res => res.json()).then(res => process.exit(0)).catch(err => process.exit(1));"]
+
+  # JSON-RPC API for interacting with the PoE smart contract
+  jsonrpcapi:
+    image: hybuild/swagger:poe9
+    container_name: jsonrpcapi
+    hostname: ${HOSTNAME:-swagger}
+    depends_on:
+      blockchain:
+        condition: service_healthy
+    restart: always        # for Docker Compose
+  # deploy:                # for Docker Swarm
+  #   mode: replicated
+  #   replicas: 3
+  #   restart_policy:
+  #     condition: always
+    ports:
+      - ${PORT:-3000}:8080 # swagger:8080 <-- localhost:3000
+    environment:
+      - TZ=Europe/Amsterdam
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+
+volumes:
+  ganache-db:
+
+
+# # Networks (with MTU patch)
+# networks:
+#   default:
+#     driver: bridge
+#     driver_opts:
+#       com.docker.network.driver.mtu: 1450

@@ -1,0 +1,19 @@
+services:
+  system:
+    image: hybuild/openapi
+    container_name: system
+    restart: always
+    ports:
+      - ${PORT:-8080}:8080 # localhost:8080
+    environment:
+      - HOSTNAME=hzn1
+      - TZ=Europe/Amsterdam
+    volumes:
+      - node-red-data:/data
+    # - node-red-public:/usr/src/node-red/public
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  node-red-data:
+  node-red-public:

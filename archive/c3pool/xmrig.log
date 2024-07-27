@@ -1,0 +1,294 @@
+ * ABOUT        XMRig/6.19.0-C3Pool gcc/9.3.0
+ * LIBS         libuv/1.44.2 OpenSSL/1.1.1s hwloc/2.9.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    disabled
+ * CPU          Intel Xeon Processor (Skylake, IBRS) (1) 64-bit AES VM
+                L2:32.0 MB L3:16.0 MB 8C/8T NUMA:1
+ * MEMORY       7.0/30.6 GB (23%)
+                DIMM 0: 16 GB RAM @ 0 MHz DIMM 0
+                DIMM 1: 15 GB RAM @ 0 MHz DIMM 1
+ * MOTHERBOARD  Hetzner - vServer
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      mine.c3pool.com:15555 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+[2023-03-22 11:56:13.821]  config   configuration saved to: "/root/c3pool/config.json"
+[2023-03-22 11:56:13.821]  benchmk   STARTING ALGO PERFORMANCE CALIBRATION (with 20 seconds round) 
+[2023-03-22 11:56:13.821]  benchmk   Algo ghostrider Preparation 
+[2023-03-22 11:56:13.827]  msr      cannot read MSR 0x000001a4
+[2023-03-22 11:56:13.827]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2023-03-22 11:56:14.805]  cpu      use profile  ghostrider  (8 threads) scratchpad 2048 KB
+[2023-03-22 11:56:14.966]  cpu      GhostRider algo 1: cn/dark (512 KB)
+[2023-03-22 11:56:14.966]  cpu      GhostRider algo 2: cn/fast (2 MB)
+[2023-03-22 11:56:14.966]  cpu      GhostRider algo 3: cn/turtle (256 KB)
+[2023-03-22 11:56:15.014]  cpu      READY threads 8/8 (64) huge pages 100% 64/64 memory 131072 KB (209 ms)
+[2023-03-22 11:56:15.547]  benchmk   Algo ghostrider Starting test 
+[2023-03-22 11:56:38.143]  benchmk   Algo ghostrider hashrate: 624.137210 
+[2023-03-22 11:56:38.144]  benchmk   Algo cn/r Preparation 
+[2023-03-22 11:56:38.242]  cpu      stopped (98 ms)
+[2023-03-22 11:56:38.242]  cpu      use profile  cn/2  (8 threads) scratchpad 2048 KB
+[2023-03-22 11:56:39.066]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (824 ms)
+[2023-03-22 11:56:39.075]  benchmk   Algo cn/r Starting test 
+[2023-03-22 11:56:59.152]  benchmk   Algo cn/r hashrate: 350.612630 
+[2023-03-22 11:56:59.153]  benchmk   Algo cn-lite/1 Preparation 
+[2023-03-22 11:56:59.172]  cpu      stopped (19 ms)
+[2023-03-22 11:56:59.172]  cpu      use profile  cn-lite  (8 threads) scratchpad 1024 KB
+[2023-03-22 11:56:59.196]  benchmk   Algo cn-lite/1 Starting test 
+[2023-03-22 11:56:59.196]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 8192 KB (24 ms)
+[2023-03-22 11:57:14.611]  miner    speed 10s/60s/15m 1319.7 n/a n/a H/s max 1338.5 H/s
+[2023-03-22 11:57:19.203]  benchmk   Algo cn-lite/1 hashrate: 1309.428811 
+[2023-03-22 11:57:19.204]  benchmk   Algo cn-heavy/xhv Preparation 
+[2023-03-22 11:57:19.228]  msr      cannot read MSR 0x000001a4
+[2023-03-22 11:57:19.228]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2023-03-22 11:57:19.233]  cpu      stopped (5 ms)
+[2023-03-22 11:57:19.233]  cpu      use profile  cn-heavy  (4 threads) scratchpad 4096 KB
+[2023-03-22 11:57:19.343]  cpu      READY threads 4/4 (4) huge pages 100% 8/8 memory 16384 KB (109 ms)
+[2023-03-22 11:57:19.376]  benchmk   Algo cn-heavy/xhv Starting test 
+[2023-03-22 11:57:39.407]  benchmk   Algo cn-heavy/xhv hashrate: 126.144135 
+[2023-03-22 11:57:39.407]  benchmk   Algo cn-pico Preparation 
+[2023-03-22 11:57:39.435]  cpu      stopped (28 ms)
+[2023-03-22 11:57:39.435]  cpu      use profile  cn-pico  (8 threads) scratchpad 256 KB
+[2023-03-22 11:57:39.444]  benchmk   Algo cn-pico Starting test 
+[2023-03-22 11:57:39.449]  cpu      READY threads 8/8 (16) huge pages 100% 8/8 memory 4096 KB (14 ms)
+[2023-03-22 11:57:59.445]  benchmk   Algo cn-pico hashrate: 7059.392410 
+[2023-03-22 11:57:59.445]  benchmk   Algo cn/ccx Preparation 
+[2023-03-22 11:57:59.447]  cpu      stopped (2 ms)
+[2023-03-22 11:57:59.448]  cpu      use profile  cn  (8 threads) scratchpad 2048 KB
+[2023-03-22 11:58:00.334]  benchmk   Algo cn/ccx Starting test 
+[2023-03-22 11:58:00.396]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (949 ms)
+[2023-03-22 11:58:14.721]  miner    speed 10s/60s/15m 676.5 n/a n/a H/s max 679.6 H/s
+[2023-03-22 11:58:20.336]  benchmk   Algo cn/ccx hashrate: 668.240974 
+[2023-03-22 11:58:20.336]  benchmk   Algo cn/gpu Preparation 
+[2023-03-22 11:58:20.505]  benchmk   Algo cn/gpu Starting test 
+[2023-03-22 11:58:40.902]  benchmk   Algo cn/gpu hashrate: 47.274633 
+[2023-03-22 11:58:40.902]  benchmk   Algo argon2/chukwav2 Preparation 
+[2023-03-22 11:58:40.902]  cpu      use argon2 implementation AVX-512F
+[2023-03-22 11:58:41.043]  cpu      stopped (141 ms)
+[2023-03-22 11:58:41.044]  cpu      use profile  argon2  (8 threads) scratchpad 1024 KB
+[2023-03-22 11:58:41.052]  benchmk   Algo argon2/chukwav2 Starting test 
+[2023-03-22 11:58:41.057]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 8192 KB (13 ms)
+[2023-03-22 11:59:01.053]  benchmk   Algo argon2/chukwav2 hashrate: 6945.712783 
+[2023-03-22 11:59:01.054]  benchmk   Algo rx/0 Preparation 
+[2023-03-22 11:59:01.055]  cpu      stopped (1 ms)
+[2023-03-22 11:59:01.058]  msr      cannot read MSR 0x000001a4
+[2023-03-22 11:59:01.058]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2023-03-22 11:59:01.058]  randomx  init dataset algo rx/0 (8 threads) seed 0000000000000000...
+[2023-03-22 11:59:01.516]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (458 ms)
+[2023-03-22 11:59:05.551]  randomx  dataset ready (4035 ms)
+[2023-03-22 11:59:05.552]  cpu      use profile  rx  (8 threads) scratchpad 2048 KB
+[2023-03-22 11:59:05.566]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (14 ms)
+[2023-03-22 11:59:05.572]  benchmk   Algo rx/0 Starting test 
+[2023-03-22 11:59:14.867]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+[2023-03-22 11:59:25.573]  benchmk   Algo rx/0 hashrate: 3784.212739 
+[2023-03-22 11:59:25.573]  benchmk   Algo rx/graft Preparation 
+[2023-03-22 11:59:25.575]  cpu      stopped (1 ms)
+[2023-03-22 11:59:25.575]  randomx  init dataset algo rx/graft (8 threads) seed 0000000000000000...
+[2023-03-22 11:59:29.150]  randomx  dataset ready (3575 ms)
+[2023-03-22 11:59:29.150]  cpu      use profile  rx  (8 threads) scratchpad 2048 KB
+[2023-03-22 11:59:29.157]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (7 ms)
+[2023-03-22 11:59:29.161]  benchmk   Algo rx/graft Starting test 
+[2023-03-22 11:59:49.164]  benchmk   Algo rx/graft hashrate: 3685.150179 
+[2023-03-22 11:59:49.165]  benchmk   Algo rx/arq Preparation 
+[2023-03-22 11:59:49.167]  cpu      stopped (2 ms)
+[2023-03-22 11:59:49.167]  randomx  init dataset algo rx/arq (8 threads) seed 0000000000000000...
+[2023-03-22 11:59:52.812]  randomx  dataset ready (3645 ms)
+[2023-03-22 11:59:52.812]  cpu      use profile  rx/wow  (8 threads) scratchpad 256 KB
+[2023-03-22 11:59:52.817]  benchmk   Algo rx/arq Starting test 
+[2023-03-22 11:59:52.819]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 2048 KB (7 ms)
+[2023-03-22 12:00:12.818]  benchmk   Algo rx/arq hashrate: 16977.064703 
+[2023-03-22 12:00:12.819]  benchmk   Algo panthera Preparation 
+[2023-03-22 12:00:12.819]  cpu      stopped (0 ms)
+[2023-03-22 12:00:12.819]  randomx  init dataset algo panthera (8 threads) seed 0000000000000000...
+[2023-03-22 12:00:12.971]  randomx  dataset ready (152 ms)
+[2023-03-22 12:00:12.971]  cpu      use profile  panthera  (8 threads) scratchpad 256 KB
+[2023-03-22 12:00:12.978]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 2048 KB (7 ms)
+[2023-03-22 12:00:12.989]  benchmk   Algo panthera Starting test 
+[2023-03-22 12:00:14.964]  miner    speed 10s/60s/15m n/a n/a n/a H/s max n/a H/s
+[2023-03-22 12:00:32.994]  benchmk   Algo panthera hashrate: 4799.474238 
+[2023-03-22 12:00:32.994]  benchmk   ALGO PERFORMANCE CALIBRATION COMPLETE 
+[2023-03-22 12:00:32.995]  config   configuration saved to: "/root/c3pool/config.json"
+[2023-03-22 12:00:33.118]  net      mine.c3pool.com:15555 5.161.71.63 connect error: "connection refused"
+[2023-03-22 12:00:38.371]  net      use pool mine.c3pool.com:15555  5.161.70.189
+[2023-03-22 12:00:38.371]  net      new job from mine.c3pool.com:15555 diff 50000 algo rx/0 height 2847530 (3 tx)
+[2023-03-22 12:00:38.391]  cpu      stopped (20 ms)
+[2023-03-22 12:00:38.391]  randomx  init dataset algo rx/0 (8 threads) seed cef31bb32db0b9d3...
+[2023-03-22 12:00:42.335]  randomx  dataset ready (3944 ms)
+[2023-03-22 12:00:42.336]  cpu      use profile  rx  (8 threads) scratchpad 2048 KB
+[2023-03-22 12:00:42.344]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (8 ms)
+[2023-03-22 12:00:46.374]  net      new job from mine.c3pool.com:15555 diff 50000 algo rx/0 height 2847531 (63 tx)
+[2023-03-22 12:00:58.953]  cpu      accepted (1/0) diff 50000 (146 ms)
+[2023-03-22 12:01:15.175]  miner    speed 10s/60s/15m 3838.2 n/a n/a H/s max 3860.3 H/s
+[2023-03-22 12:01:20.188]  cpu      accepted (2/0) diff 50000 (148 ms)
+[2023-03-22 12:01:30.360]  cpu      accepted (3/0) diff 50000 (149 ms)
+[2023-03-22 12:01:44.626]  cpu      accepted (4/0) diff 50000 (148 ms)
+[2023-03-22 12:01:45.403]  cpu      accepted (5/0) diff 50000 (148 ms)
+[2023-03-22 12:01:46.638]  cpu      accepted (6/0) diff 50000 (145 ms)
+[2023-03-22 12:01:50.265]  cpu      accepted (7/0) diff 50000 (162 ms)
+[2023-03-22 12:01:50.428]  cpu      accepted (8/0) diff 50000 (146 ms)
+[2023-03-22 12:01:55.183]  cpu      accepted (9/0) diff 50000 (148 ms)
+[2023-03-22 12:01:56.024]  cpu      accepted (10/0) diff 50000 (166 ms)
+[2023-03-22 12:02:02.720]  cpu      accepted (11/0) diff 50000 (156 ms)
+[2023-03-22 12:02:09.065]  net      new job from mine.c3pool.com:15555 diff 181936 algo rx/0 height 2847531 (63 tx)
+[2023-03-22 12:02:15.343]  miner    speed 10s/60s/15m 3799.1 3833.5 n/a H/s max 3883.2 H/s
+[2023-03-22 12:02:38.303]  net      new job from mine.c3pool.com:15555 diff 181936 algo rx/0 height 2847532 (24 tx)
+[2023-03-22 12:02:39.860]  cpu      accepted (12/0) diff 181936 (147 ms)
+[2023-03-22 12:02:52.187]  cpu      accepted (13/0) diff 181936 (147 ms)
+[2023-03-22 12:03:08.237]  cpu      accepted (14/0) diff 181936 (165 ms)
+[2023-03-22 12:03:15.548]  miner    speed 10s/60s/15m 3775.0 3794.0 n/a H/s max 3883.2 H/s
+[2023-03-22 12:03:28.787]  net      new job from mine.c3pool.com:15555 diff 218151 algo rx/0 height 2847533 (1 tx)
+[2023-03-22 12:04:09.091]  net      new job from mine.c3pool.com:15555 diff 156010 algo rx/0 height 2847533 (1 tx)
+[2023-03-22 12:04:15.800]  miner    speed 10s/60s/15m 3753.2 3788.2 n/a H/s max 3883.2 H/s
+[2023-03-22 12:04:16.580]  net      new job from mine.c3pool.com:15555 diff 156010 algo rx/0 height 2847534 (2 tx)
+[2023-03-22 12:04:31.446]  cpu      accepted (15/0) diff 156010 (148 ms)
+[2023-03-22 12:04:58.837]  net      new job from mine.c3pool.com:15555 diff 156010 algo rx/0 height 2847535 (11 tx)
+[2023-03-22 12:05:16.072]  miner    speed 10s/60s/15m 3808.7 3801.6 n/a H/s max 3883.2 H/s
+[2023-03-22 12:05:27.506]  cpu      accepted (16/0) diff 156010 (145 ms)
+[2023-03-22 12:05:27.692]  cpu      accepted (17/0) diff 156010 (173 ms)
+[2023-03-22 12:05:31.828]  cpu      accepted (18/0) diff 156010 (151 ms)
+[2023-03-22 12:05:53.492]  net      new job from mine.c3pool.com:15555 diff 138712 algo rx/0 height 2847536 (1 tx)
+[2023-03-22 12:05:54.197]  net      new job from mine.c3pool.com:15555 diff 138712 algo rx/0 height 2847537 (1 tx)
+[2023-03-22 12:06:16.296]  miner    speed 10s/60s/15m 3815.6 3835.9 n/a H/s max 3883.2 H/s
+[2023-03-22 12:06:42.620]  cpu      accepted (19/0) diff 138712 (172 ms)
+[2023-03-22 12:07:03.059]  net      new job from mine.c3pool.com:15555 diff 156004 algo rx/0 height 2847538 (3 tx)
+[2023-03-22 12:07:16.527]  miner    speed 10s/60s/15m 3844.0 3834.9 n/a H/s max 3886.6 H/s
+[2023-03-22 12:07:25.782]  cpu      accepted (20/0) diff 156004 (146 ms)
+[2023-03-22 12:07:55.011]  cpu      accepted (21/0) diff 156004 (150 ms)
+[2023-03-22 12:08:16.840]  miner    speed 10s/60s/15m 3823.5 3825.3 n/a H/s max 3893.0 H/s
+[2023-03-22 12:08:20.776]  cpu      accepted (22/0) diff 156004 (145 ms)
+[2023-03-22 12:09:02.838]  cpu      accepted (23/0) diff 156004 (151 ms)
+[2023-03-22 12:09:10.732]  cpu      accepted (24/0) diff 156004 (148 ms)
+[2023-03-22 12:09:17.114]  miner    speed 10s/60s/15m 3840.0 3809.6 n/a H/s max 3893.0 H/s
+[2023-03-22 12:09:30.540]  net      new job from mine.c3pool.com:15555 diff 145824 algo rx/0 height 2847539 (4 tx)
+[2023-03-22 12:09:37.508]  cpu      accepted (25/0) diff 145824 (148 ms)
+[2023-03-22 12:10:17.303]  miner    speed 10s/60s/15m 3841.7 3869.0 n/a H/s max 3929.6 H/s
+[2023-03-22 12:10:22.219]  cpu      accepted (26/0) diff 145824 (146 ms)
+[2023-03-22 12:11:12.562]  cpu      accepted (27/0) diff 145824 (151 ms)
+[2023-03-22 12:11:17.498]  miner    speed 10s/60s/15m 3854.2 3848.5 n/a H/s max 3929.6 H/s
+[2023-03-22 12:11:18.484]  cpu      accepted (28/0) diff 145824 (150 ms)
+[2023-03-22 12:11:29.088]  cpu      accepted (29/0) diff 145824 (149 ms)
+[2023-03-22 12:11:37.528]  cpu      accepted (30/0) diff 145824 (146 ms)
+[2023-03-22 12:12:03.682]  cpu      accepted (31/0) diff 145824 (144 ms)
+[2023-03-22 12:12:17.733]  miner    speed 10s/60s/15m 3797.4 3846.8 n/a H/s max 3929.6 H/s
+[2023-03-22 12:13:09.813]  net      new job from mine.c3pool.com:15555 diff 146226 algo rx/0 height 2847540 (4 tx)
+[2023-03-22 12:13:18.000]  miner    speed 10s/60s/15m 3848.7 3836.1 n/a H/s max 3929.6 H/s
+[2023-03-22 12:13:28.292]  cpu      accepted (32/0) diff 146226 (171 ms)
+[2023-03-22 12:13:57.020]  cpu      accepted (33/0) diff 146226 (149 ms)
+[2023-03-22 12:13:59.716]  net      new job from mine.c3pool.com:15555 diff 146226 algo rx/0 height 2847541 (4 tx)
+[2023-03-22 12:14:00.291]  cpu      accepted (34/0) diff 146226 (147 ms)
+[2023-03-22 12:14:18.245]  miner    speed 10s/60s/15m 3879.4 3866.6 n/a H/s max 3929.6 H/s
+[2023-03-22 12:14:25.250]  cpu      accepted (35/0) diff 146226 (147 ms)
+[2023-03-22 12:15:18.473]  miner    speed 10s/60s/15m 3820.4 3868.2 n/a H/s max 3929.6 H/s
+[2023-03-22 12:15:22.292]  cpu      accepted (36/0) diff 146226 (174 ms)
+[2023-03-22 12:16:18.757]  miner    speed 10s/60s/15m 3869.3 3850.3 3834.2 H/s max 3929.6 H/s
+[2023-03-22 12:16:54.240]  net      new job from mine.c3pool.com:15555 diff 141509 algo rx/0 height 2847542 (3 tx)
+[2023-03-22 12:17:19.013]  miner    speed 10s/60s/15m 3902.9 3859.6 3835.7 H/s max 3929.6 H/s
+[2023-03-22 12:17:54.058]  cpu      accepted (37/0) diff 141509 (150 ms)
+[2023-03-22 12:18:00.422]  cpu      accepted (38/0) diff 141509 (181 ms)
+[2023-03-22 12:18:19.232]  miner    speed 10s/60s/15m 3893.9 3861.6 3840.7 H/s max 3929.6 H/s
+[2023-03-22 12:18:34.165]  cpu      accepted (39/0) diff 141509 (150 ms)
+[2023-03-22 12:19:15.943]  cpu      accepted (40/0) diff 141509 (177 ms)
+[2023-03-22 12:19:19.487]  miner    speed 10s/60s/15m 3917.9 3881.7 3846.5 H/s max 3929.6 H/s
+[2023-03-22 12:19:46.357]  cpu      accepted (41/0) diff 141509 (144 ms)
+[2023-03-22 12:20:00.096]  cpu      accepted (42/0) diff 141509 (147 ms)
+[2023-03-22 12:20:19.742]  miner    speed 10s/60s/15m 3719.8 3763.7 3844.1 H/s max 3929.6 H/s
+[2023-03-22 12:20:29.922]  net      new job from mine.c3pool.com:15555 diff 134255 algo rx/0 height 2847543 (5 tx)
+[2023-03-22 12:20:52.991]  cpu      accepted (43/0) diff 134255 (150 ms)
+[2023-03-22 12:21:19.980]  miner    speed 10s/60s/15m 3869.4 3812.7 3842.5 H/s max 3929.6 H/s
+[2023-03-22 12:21:38.836]  net      new job from mine.c3pool.com:15555 diff 130984 algo rx/0 height 2847544 (1 tx)
+[2023-03-22 12:21:56.460]  cpu      accepted (44/0) diff 130984 (160 ms)
+[2023-03-22 12:22:20.192]  miner    speed 10s/60s/15m 3895.6 3874.5 3844.9 H/s max 3929.6 H/s
+[2023-03-22 12:22:48.525]  cpu      accepted (45/0) diff 130984 (149 ms)
+[2023-03-22 12:23:20.440]  miner    speed 10s/60s/15m 3845.6 3858.7 3847.2 H/s max 3929.6 H/s
+[2023-03-22 12:23:39.965]  cpu      accepted (46/0) diff 130984 (144 ms)
+[2023-03-22 12:23:45.471]  cpu      accepted (47/0) diff 130984 (148 ms)
+[2023-03-22 12:24:20.709]  miner    speed 10s/60s/15m 3888.2 3851.6 3850.2 H/s max 3929.6 H/s
+[2023-03-22 12:24:21.947]  cpu      accepted (48/0) diff 130984 (144 ms)
+[2023-03-22 12:25:20.918]  miner    speed 10s/60s/15m 3840.3 3876.5 3850.7 H/s max 3929.6 H/s
+[2023-03-22 12:25:28.729]  cpu      accepted (49/0) diff 130984 (146 ms)
+[2023-03-22 12:25:29.276]  net      new job from mine.c3pool.com:15555 diff 122969 algo rx/0 height 2847545 (6 tx)
+[2023-03-22 12:25:33.431]  net      new job from mine.c3pool.com:15555 diff 122969 algo rx/0 height 2847546 (2 tx)
+[2023-03-22 12:25:47.768]  cpu      accepted (50/0) diff 122969 (146 ms)
+[2023-03-22 12:25:55.252]  cpu      accepted (51/0) diff 122969 (147 ms)
+[2023-03-22 12:26:21.125]  miner    speed 10s/60s/15m 3677.8 3830.3 3849.4 H/s max 3929.6 H/s
+[2023-03-22 12:26:59.956]  cpu      accepted (52/0) diff 122969 (148 ms)
+[2023-03-22 12:27:21.349]  miner    speed 10s/60s/15m 3751.8 3751.3 3843.0 H/s max 3929.6 H/s
+[2023-03-22 12:27:54.741]  net      new job from mine.c3pool.com:15555 diff 123117 algo rx/0 height 2847547 (2 tx)
+[2023-03-22 12:28:09.596]  cpu      accepted (53/0) diff 123117 (175 ms)
+[2023-03-22 12:28:13.457]  cpu      accepted (54/0) diff 123117 (149 ms)
+[2023-03-22 12:28:17.227]  net      new job from mine.c3pool.com:15555 diff 118642 algo rx/0 height 2847548 (9 tx)
+[2023-03-22 12:28:21.669]  miner    speed 10s/60s/15m 3719.8 3795.4 3840.5 H/s max 3929.6 H/s
+[2023-03-22 12:28:39.052]  cpu      accepted (55/0) diff 118642 (149 ms)
+[2023-03-22 12:29:21.936]  miner    speed 10s/60s/15m 3867.7 3827.2 3837.3 H/s max 3929.6 H/s
+[2023-03-22 12:29:42.314]  cpu      accepted (56/0) diff 118642 (150 ms)
+[2023-03-22 12:29:50.053]  cpu      accepted (57/0) diff 118642 (145 ms)
+[2023-03-22 12:30:20.124]  net      new job from mine.c3pool.com:15555 diff 120804 algo rx/0 height 2847549 (1 tx)
+[2023-03-22 12:30:22.140]  miner    speed 10s/60s/15m 3806.8 3850.3 3836.6 H/s max 3929.6 H/s
+[2023-03-22 12:31:15.588]  net      new job from mine.c3pool.com:15555 diff 116847 algo rx/0 height 2847550 (2 tx)
+[2023-03-22 12:31:22.300]  cpu      accepted (58/0) diff 116847 (183 ms)
+[2023-03-22 12:31:22.380]  miner    speed 10s/60s/15m 3862.3 3855.1 3836.5 H/s max 3929.6 H/s
+[2023-03-22 12:32:22.614]  miner    speed 10s/60s/15m 3836.6 3856.4 3836.0 H/s max 3929.6 H/s
+[2023-03-22 12:32:53.554]  cpu      accepted (59/0) diff 116847 (148 ms)
+[2023-03-22 12:33:07.848]  cpu      accepted (60/0) diff 116847 (146 ms)
+[2023-03-22 12:33:22.852]  miner    speed 10s/60s/15m 3890.4 3868.9 3836.6 H/s max 3929.6 H/s
+[2023-03-22 12:33:49.004]  net      new job from mine.c3pool.com:15555 diff 115050 algo rx/0 height 2847551 (3 tx)
+[2023-03-22 12:34:23.069]  miner    speed 10s/60s/15m 3906.7 3882.6 3836.6 H/s max 3929.6 H/s
+[2023-03-22 12:34:39.687]  cpu      accepted (61/0) diff 115050 (150 ms)
+[2023-03-22 12:35:23.292]  miner    speed 10s/60s/15m 3880.0 3851.4 3843.0 H/s max 3929.6 H/s
+[2023-03-22 12:35:29.534]  cpu      accepted (62/0) diff 115050 (150 ms)
+[2023-03-22 12:36:06.092]  net      new job from mine.c3pool.com:15555 diff 110048 algo rx/0 height 2847552 (44 tx)
+[2023-03-22 12:36:12.183]  cpu      accepted (63/0) diff 110048 (149 ms)
+[2023-03-22 12:36:23.545]  miner    speed 10s/60s/15m 3875.8 3876.6 3847.1 H/s max 3931.8 H/s
+[2023-03-22 12:37:07.867]  cpu      accepted (64/0) diff 110048 (146 ms)
+[2023-03-22 12:37:17.634]  net      new job from mine.c3pool.com:15555 diff 108609 algo rx/0 height 2847553 (3 tx)
+[2023-03-22 12:37:23.773]  miner    speed 10s/60s/15m 3777.2 3833.0 3844.2 H/s max 3931.8 H/s
+[2023-03-22 12:37:38.123]  cpu      accepted (65/0) diff 108609 (148 ms)
+[2023-03-22 12:38:11.130]  cpu      accepted (66/0) diff 108609 (150 ms)
+[2023-03-22 12:38:22.438]  cpu      accepted (67/0) diff 108609 (150 ms)
+[2023-03-22 12:38:23.974]  miner    speed 10s/60s/15m 3767.2 3768.8 3838.2 H/s max 3931.8 H/s
+[2023-03-22 12:38:29.158]  cpu      accepted (68/0) diff 108609 (145 ms)
+[2023-03-22 12:38:40.079]  cpu      accepted (69/0) diff 108609 (148 ms)
+[2023-03-22 12:39:23.467]  cpu      accepted (70/0) diff 108609 (145 ms)
+[2023-03-22 12:39:24.200]  miner    speed 10s/60s/15m 3819.7 3784.7 3833.6 H/s max 3931.8 H/s
+[2023-03-22 12:39:25.378]  cpu      accepted (71/0) diff 108609 (144 ms)
+[2023-03-22 12:39:53.665]  net      new job from mine.c3pool.com:15555 diff 110017 algo rx/0 height 2847554 (39 tx)
+[2023-03-22 12:39:57.490]  cpu      accepted (72/0) diff 110017 (144 ms)
+[2023-03-22 12:40:16.858]  cpu      accepted (73/0) diff 110017 (147 ms)
+[2023-03-22 12:40:24.431]  miner    speed 10s/60s/15m 3870.5 3849.6 3831.9 H/s max 3931.8 H/s
+[2023-03-22 12:40:46.315]  cpu      accepted (74/0) diff 110017 (155 ms)
+[2023-03-22 12:41:10.269]  net      new job from mine.c3pool.com:15555 diff 111340 algo rx/0 height 2847555 (2 tx)
+[2023-03-22 12:41:24.672]  miner    speed 10s/60s/15m 3855.2 3875.9 3835.2 H/s max 3943.3 H/s
+[2023-03-22 12:41:29.936]  net      new job from mine.c3pool.com:15555 diff 111340 algo rx/0 height 2847556 (8 tx)
+[2023-03-22 12:41:57.365]  cpu      accepted (75/0) diff 111340 (150 ms)
+[2023-03-22 12:42:01.324]  cpu      accepted (76/0) diff 111340 (151 ms)
+[2023-03-22 12:42:23.175]  cpu      accepted (77/0) diff 111340 (150 ms)
+[2023-03-22 12:42:24.848]  miner    speed 10s/60s/15m 3897.4 3891.3 3844.6 H/s max 3943.3 H/s
+[2023-03-22 12:42:58.533]  cpu      accepted (78/0) diff 111340 (147 ms)
+[2023-03-22 12:43:13.757]  cpu      accepted (79/0) diff 111340 (147 ms)
+[2023-03-22 12:43:16.377]  cpu      accepted (80/0) diff 111340 (147 ms)
+[2023-03-22 12:43:25.048]  miner    speed 10s/60s/15m 3912.6 3854.9 3849.4 H/s max 3943.3 H/s
+[2023-03-22 12:43:25.135]  net      new job from mine.c3pool.com:15555 diff 111340 algo rx/0 height 2847557 (8 tx)
+[2023-03-22 12:43:39.619]  cpu      accepted (81/0) diff 111340 (147 ms)
+[2023-03-22 12:43:49.359]  cpu      accepted (82/0) diff 111340 (150 ms)
+[2023-03-22 12:44:25.293]  miner    speed 10s/60s/15m 3882.7 3876.3 3851.8 H/s max 3943.3 H/s
+[2023-03-22 12:44:46.787]  cpu      accepted (83/0) diff 111340 (150 ms)
+[2023-03-22 12:45:05.701]  cpu      accepted (84/0) diff 111340 (147 ms)
+[2023-03-22 12:45:25.560]  miner    speed 10s/60s/15m 3851.9 3886.0 3854.4 H/s max 3943.3 H/s
+[2023-03-22 12:45:28.001]  cpu      accepted (85/0) diff 111340 (147 ms)
+[2023-03-22 12:45:49.170]  cpu      accepted (86/0) diff 111340 (144 ms)
+[2023-03-22 12:46:25.772]  miner    speed 10s/60s/15m 3891.1 3895.5 3857.2 H/s max 3943.3 H/s
+[2023-03-22 12:47:01.883]  net      new job from mine.c3pool.com:15555 diff 113786 algo rx/0 height 2847558 (52 tx)
+[2023-03-22 12:47:08.921]  net      new job from mine.c3pool.com:15555 diff 113786 algo rx/0 height 2847559 (6 tx)
+[2023-03-22 12:47:25.883]  cpu      accepted (87/0) diff 113786 (166 ms)
+[2023-03-22 12:47:26.000]  miner    speed 10s/60s/15m 3897.1 3911.0 3860.9 H/s max 3972.5 H/s
+[2023-03-22 12:47:26.003]  cpu      accepted (88/0) diff 113786 (149 ms)
+[2023-03-22 12:47:36.992]  cpu      accepted (89/0) diff 113786 (185 ms)
+[2023-03-22 12:48:26.252]  miner    speed 10s/60s/15m 3928.6 3897.7 3862.5 H/s max 3972.5 H/s
+[2023-03-22 12:48:37.416]  net      new job from mine.c3pool.com:15555 diff 112589 algo rx/0 height 2847560 (1 tx)
+[2023-03-22 12:49:25.368]  cpu      accepted (90/0) diff 112589 (150 ms)
+[2023-03-22 12:49:26.508]  miner    speed 10s/60s/15m 3893.0 3896.8 3863.6 H/s max 3972.5 H/s
+[2023-03-22 12:49:32.360]  cpu      accepted (91/0) diff 112589 (161 ms)
+[2023-03-22 12:50:03.618]  cpu      accepted (92/0) diff 112589 (166 ms)
+[2023-03-22 12:50:26.717]  miner    speed 10s/60s/15m 3921.7 3904.1 3867.0 H/s max 3972.5 H/s
+[2023-03-22 12:50:38.391]  cpu      accepted (93/0) diff 112589 (145 ms)
+[2023-03-22 12:51:15.484]  net      new job from mine.c3pool.com:15555 diff 110359 algo rx/0 height 2847561 (6 tx)
+[2023-03-22 12:51:26.953]  miner    speed 10s/60s/15m 3841.1 3911.3 3869.4 H/s max 3972.5 H/s

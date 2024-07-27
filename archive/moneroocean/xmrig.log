@@ -1,0 +1,33 @@
+ * ABOUT        XMRig/6.19.2-mo1 gcc/9.3.1
+ * LIBS         libuv/1.44.2 OpenSSL/1.1.1s hwloc/2.9.0
+ * HUGE PAGES   supported
+ * 1GB PAGES    disabled
+ * CPU          Intel Xeon Processor (Skylake, IBRS) (1) 64-bit AES VM
+                L2:32.0 MB L3:16.0 MB 8C/8T NUMA:1
+ * MEMORY       5.9/30.6 GB (19%)
+                DIMM 0: 16 GB RAM @ 0 MHz DIMM 0
+                DIMM 1: 15 GB RAM @ 0 MHz DIMM 1
+ * MOTHERBOARD  Hetzner - vServer
+ * DONATE       0%
+ * ASSEMBLY     auto:intel
+ * POOL #1      gulf.moneroocean.stream:10128 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * OPENCL       disabled
+ * CUDA         disabled
+[2023-04-08 16:36:53.315]  config   configuration saved to: "/root/moneroocean/config.json"
+[2023-04-08 16:36:53.316]  benchmk   STARTING ALGO PERFORMANCE CALIBRATION (with 20 seconds round) 
+[2023-04-08 16:36:53.316]  benchmk   Algo ghostrider Preparation 
+[2023-04-08 16:36:53.316]  msr      cannot read MSR 0x000001a4
+[2023-04-08 16:36:53.316]  msr      FAILED TO APPLY MSR MOD, HASHRATE WILL BE LOW
+[2023-04-08 16:36:54.404]  cpu      use profile  ghostrider  (8 threads) scratchpad 2048 KB
+[2023-04-08 16:36:54.596]  cpu      GhostRider algo 1: cn/dark (512 KB)
+[2023-04-08 16:36:54.596]  cpu      GhostRider algo 2: cn/fast (2 MB)
+[2023-04-08 16:36:54.596]  cpu      GhostRider algo 3: cn/turtle (256 KB)
+[2023-04-08 16:36:54.706]  cpu      READY threads 8/8 (64) huge pages 100% 64/64 memory 131072 KB (302 ms)
+[2023-04-08 16:36:55.338]  benchmk   Algo ghostrider Starting test 
+[2023-04-08 16:37:16.247]  benchmk   Algo ghostrider hashrate: 504.760908 
+[2023-04-08 16:37:16.248]  benchmk   Algo cn/r Preparation 
+[2023-04-08 16:37:16.353]  cpu      stopped (104 ms)
+[2023-04-08 16:37:16.353]  cpu      use profile  cn/2  (8 threads) scratchpad 2048 KB
+[2023-04-08 16:37:17.303]  benchmk   Algo cn/r Starting test 
+[2023-04-08 16:37:17.375]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (1022 ms)
